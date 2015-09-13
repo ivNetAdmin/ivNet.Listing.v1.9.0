@@ -1,0 +1,61 @@
+﻿@{
+    Script.Require("AngularJSSanitize");
+    Script.Require("trNgGrid");
+    Script.Require("Google.Maps");
+    Script.Require("ivNet.Listing.Detail");
+
+    Style.Require("Bootstrap.Responsive");    
+    Style.Require("PrettyPhoto");
+    Style.Require("Bootstrap.Throbber");
+    Style.Require("ivNet.Listing");  
+}
+<div ng-app="ivNet.ListingDetail" ng-controller="ListingsController" class="letting-detail">
+    <section class="col-md-12">
+        <ul class="thumbnails"></ul>
+    </section>
+    <section class="col-md-12">
+        <div class="col-md-4 owner-map-details">
+            <ul>
+                <li>{{data.OwnerName}}</li>
+                @*<li>{{data.Address1}} {{data.Address2}}</li>*@
+                <li>{{data.Town}}</li>
+                @*<li>{{data.Postcode}}</li>*@
+            </ul>
+            <ul>
+                <li><a href="mailto:{{data.Email}}">{{data.Email}}</a></li>
+                <li>{{data.Phone}}</li>
+                <li><a href="{{data.WebsiteUrl}}">{{data.WebsiteUrl}}</a></li>
+            </ul>
+
+            <div id="map-container"></div>
+
+        </div>
+        <i class="btn btn-info" ng-click="showSearchResults()" title="More Details">Back to Search Results...</i>
+        <div class="col-md-8 property-details">
+            <ul>
+                <li class="listing-strapline">{{data.Strapline}}</li>
+            </ul>
+            <ul>
+                <li class="listing-category">{{data.Category}}</li>
+                <li ng-bind-html="data.Description"></li>
+                <li>{{price}}</li>
+            </ul>
+            <div class="col-md-12 listing-tables-holder">
+                <div class="col-md-6">
+                    <table tr-ng-grid='' items='rooms' enable-filtering="false" enable-sorting="false"></table>
+                </div>
+                <div class="col-md-6">
+                    <table tr-ng-grid='' items='theatres' enable-filtering="false" enable-sorting="false"></table>
+                </div>
+                <ul class="tags"></ul>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<form class="hidden" id="tagSearch" action="/ivNet.Listing/site/search" method="get">
+    <div>
+        <input id="tagq" name="q" type="text" value="">
+    </div>
+</form>

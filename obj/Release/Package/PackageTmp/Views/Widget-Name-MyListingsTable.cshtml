@@ -1,0 +1,25 @@
+﻿
+@{
+    Script.Require("jQuery.Validate.Unobtrusive");
+    Script.Require("jQuery.FileUpload");
+    Script.Require("Bootstrap.TagsInput");
+    Script.Require("CKEditor");    
+    Script.Require("ivNet.Listings");    
+    
+    Style.Require("jQuery.FileUpload");
+    Style.Require("Bootstrap.TagsInput");
+    Style.Require("Bootstrap.Throbber");
+    Style.Require("ivNet.Listing");    
+}
+
+<div id="ListingsGrid" data-ng-app="ivNet.Listings">
+    <div data-ng-controller="ListingsController" data-task="owner">
+        <section id="listingTable">
+            <div class="col-md-offset-11 col-md-12">
+                <input type="button" value="Add" class="btn btn-info" ng-click="addListing()">
+            </div>
+            @Html.Partial("Listings/_List")
+        </section>
+        @Html.Partial("Listings/_Edit")
+    </div>
+</div>

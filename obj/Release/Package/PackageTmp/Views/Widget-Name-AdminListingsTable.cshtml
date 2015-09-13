@@ -1,0 +1,21 @@
+﻿@{
+    Script.Require("jQuery.Validate.Unobtrusive");
+    Script.Require("jQuery.FileUpload");
+    Script.Require("Bootstrap.TagsInput");
+    Script.Require("CKEditor");
+    Script.Require("ivNet.Listings");
+
+    Style.Require("jQuery.FileUpload");
+    Style.Require("Bootstrap.TagsInput");
+    Style.Require("Bootstrap.Throbber");
+    Style.Require("ivNet.Listing");
+}
+
+<div id="ListingsGrid" data-ng-app="ivNet.Listings">
+    <div data-ng-controller="ListingsController" data-task="admin">
+        <section id="listingTable">
+            @Html.Partial("Listings/_ListAdmin")
+        </section>
+        @Html.Partial("Listings/_Edit")
+    </div>
+</div>

@@ -1,0 +1,20 @@
+﻿<table tr-ng-grid='' items='listings' enable-filtering="false" enable-sorting="false">
+    <thead>
+        <tr>
+            <th field-name="Id" display-name="" display-align="right"></th>
+            <th field-name="PaymentPackageName" display-name="Package"></th>
+            <th field-name="Address" display-name="Address"></th>
+            <th field-name="PostCode" display-name="PostCode"></th>            
+            <th field-name="PaymentPackageExpiraryDate" display-name="Expires" display-format="dateField:gridItem"></th>                      
+             <th display-name="Edit"></th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr>          
+            <td>
+                <i class="btn btn-primary icon-edit icon-white" ng-click="editListing(gridItem)" rel="tooltip" title="Edit Listing"></i>
+            </td>
+        </tr>
+
+    </tbody>
+</table>

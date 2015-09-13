@@ -1,0 +1,59 @@
+﻿@model string
+@{
+    Script.Require("AngularJSSanitize");
+    Script.Require("ivNet.Search");
+
+    Style.Require("Bootstrap.Throbber");
+
+    var searchTerm = Model;
+}
+
+<div id="SearchGrid" data-ng-app="ivNet.Search">
+    <div data-ng-controller="SearchController" data-search="@searchTerm">
+        <div class="col-md-10"><h1>Search Results</h1></div>  
+        <table tr-ng-grid='' items='listings' fields='search_fields' enable-filtering="false">
+            <thead>
+                <tr>
+                    <th field-name="StrapLine" style="display: none"></th>
+                    <th field-name="ImageUrl" style="display: none"></th>
+                    <th field-name="Owner" style="display: none"></th>
+                    <th field-name="Address" style="display: none"></th>
+                    <th field-name="Price" style="display: none"></th>
+                    <th field-name="Description" style="display: none"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td field-name="StrapLine" style="display: none"></td>
+                    <td field-name="ImageUrl" style="display: none"></td>
+                    <td field-name="Owner" style="display: none"></td>
+                    <td field-name="Address" style="display: none"></td>
+                    <td field-name="Price" style="display: none"></td>
+                    <td field-name="Description">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <img alt="listing image" src="{{gridDisplayItem.ImageUrl}}" style="width:100%" />
+                            </div>
+                            <div class="col-md-8">
+                                @*<h4>{{gridDisplayItem.Address}}</h4>*@
+                                <h4>{{gridDisplayItem.StrapLine}}</h4>
+                                <p>{{gridDisplayItem.Owner}}</p>
+                                @*<p>{{gridDisplayItem.StrapLine}}</p>*@
+                                @*<div ng-bind-html="gridDisplayItem.Description"></div>*@
+                                <p>{{gridDisplayItem.Price}}</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <i class="btn btn-info" ng-click="showListing(gridItem)" title="More Details">More...</i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+     
+    </div>
+</div>
+
+       

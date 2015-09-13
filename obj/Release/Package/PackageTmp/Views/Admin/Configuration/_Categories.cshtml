@@ -1,0 +1,29 @@
+﻿<div class="form-horizontal col-md-12 owner-detail">
+    <div class="col-md-2">
+        <h4>Categories</h4>
+        <hr />
+    </div>
+    <div class="col-md-8">
+        <input class="form-control text-box single-line" ng-model="categoryName" id="categoryName" type="text" />
+    </div>
+    <div class="col-md-2">
+        <input type="button" value="Add" class="btn btn-info" ng-click="addCategory()">
+    </div>
+</div>
+<div class="form-horizontal col-md-12 owner-detail">
+    <table tr-ng-grid='' items='categories' enable-filtering="false" enable-sorting="false">
+        <thead>
+            <tr>
+                <th field-name="Id" display-name="" display-align="right"></th>
+                <th field-name="Name" display-name="Name"></th>              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <i class="btn btn-danger icon-trash icon-white" ng-click="removeCategory(gridItem)" rel="tooltip" title="Remove Category"></i>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

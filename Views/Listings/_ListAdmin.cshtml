@@ -1,0 +1,29 @@
+﻿<table tr-ng-grid='' items='listings' >
+    <thead>
+        <tr>
+            <th field-name="Id" display-name="" display-align="right" enable-filtering="false" enable-sorting="true"></th>
+            <th field-name="Owner" display-name="Owner"></th>
+            <th field-name="Email" display-name="Email"></th>
+            <th field-name="PaymentPackageName" display-name="Package"></th>
+            <th field-name="Address" display-name="Address"></th>
+            <th field-name="PostCode" display-name="PostCode"></th>
+            <th field-name="PaymentPackageExpiraryDate" display-name="Expires" display-format="dateField:gridItem"></th>
+            <th display-name="Edit" enable-filtering="false" enable-sorting="false" display-align="center"></th>
+            <th display-name="Authorise" enable-filtering="false" enable-sorting="false" display-align="center"></th>
+            <th display-name="Delete" enable-filtering="false" enable-sorting="false" display-align="center"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <i class="btn btn-primary icon-edit icon-white" ng-click="editListing(gridItem)" rel="tooltip" title="Edit Listing"></i>
+            </td>
+            <td>
+                <i class="btn btn-{{gridItem.IsVetted?'success':'warning'}} icon-thumbs-{{gridItem.IsVetted?'up':'down'}} icon-white" ng-click="authoriseListing(gridItem)" rel="tooltip" title="Authorise Listing"></i>
+            </td>
+            <td>
+                <i class="btn btn-danger icon-trash icon-white" ng-click="deleteListing(gridItem)" rel="tooltip" title="Delete Listing"></i>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+﻿Name: ivNet.Listing
+AntiForgery: enabled
+Author: ivNet Ltd
+Website: http://www.ivnet.co.uk
+Version: 1.0
+OrchardVersion: 1.9
+Description: Property Listing Admin Tools
+Category: ivNet
+Features:
+    ivNet.Listing:
+        Description: Description for feature ivNet.Listing.

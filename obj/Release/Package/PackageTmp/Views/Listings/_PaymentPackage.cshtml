@@ -1,0 +1,20 @@
+﻿<div class="form-horizontal col-md-12 owner-detail">
+    <div class="col-md-12">
+        <h4>Payment Package <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_package}} "></i></h4>
+        <hr />
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Package">Package</label>
+        <div class="col-md-10">
+            <select ng-options="package.Name for package in packages track by package.Id"
+                    data-val="true"
+                    data-val-required="Package is required."
+                    ng-model="package"
+                    ng-change="packageOnChange()"
+                    name="Package" id="Package">
+                <option value="">Select Package</option>
+            </select>
+            <span class="field-validation-valid text-danger" data-valmsg-for="package" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+</div>

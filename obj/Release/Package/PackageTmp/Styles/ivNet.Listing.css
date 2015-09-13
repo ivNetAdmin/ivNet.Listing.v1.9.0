@@ -1,0 +1,27 @@
+﻿.bootstrap-tagsinput {
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+.bootstrap-tagsinput input {
+  display: none !important;
+}
+.info-colour {
+  color: #bce8f1;
+}
+.owner-detail {
+  border-radius: 10px;
+  border: 2px solid #696969;
+  padding: 2px;
+  margin: 6px 0;
+}
+section#listingEdit,
+div#cke_DescriptionHtml,
+div#WebsiteUrlForm,
+div#ImageUploadForm {
+  display: none;
+}
+table,
+.table {
+  color: #c3c1c1 !important;
+}

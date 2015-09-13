@@ -1,0 +1,196 @@
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.dll.config
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\FluentNHibernate.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Mail.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Newtonsoft.Json.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Core.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Framework.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Roles.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Users.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Mvc.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Recaptcha.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Email.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Workflows.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Forms.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Helpers.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Iesi.Collections.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Razor.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Razor.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Castle.Core.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\log4net.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Owin.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Microsoft.Owin.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.Linq.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.Configuration.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.WebHost.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Tokens.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Mail.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Roles.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Users.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Newtonsoft.Json.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Mvc.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Core.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Framework.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Email.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Workflows.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Forms.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Helpers.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Iesi.Collections.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Razor.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Razor.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Castle.Core.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\log4net.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Microsoft.Owin.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.Configuration.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.WebHost.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Tokens.pdb
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.dll
+C:\Users\Brian\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v.1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.csprojResolveAssemblyReference.cache
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.dll.config
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\AntiXssLibrary.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Castle.Core.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\FluentNHibernate.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\HtmlSanitizationLibrary.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Mail.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Newtonsoft.Json.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Core.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Framework.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Roles.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Search.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Users.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Recaptcha.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Mvc.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Email.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Workflows.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Forms.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.MediaLibrary.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Helpers.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Iesi.Collections.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Razor.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Razor.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Tokens.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Mail.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Roles.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Search.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Users.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\AntiXssLibrary.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Castle.Core.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\HtmlSanitizationLibrary.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Newtonsoft.Json.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Mvc.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Email.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Workflows.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Forms.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.MediaLibrary.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Helpers.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Iesi.Collections.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Razor.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Razor.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Tokens.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\log4net.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Owin.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Microsoft.Owin.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.Linq.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.Configuration.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.WebHost.dll
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Core.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Framework.pdb
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\log4net.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Microsoft.Owin.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.Configuration.xml
+C:\Users\b.Paske\Documents\Dump\Orchard\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.WebHost.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.dll.config
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Listing.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\AntiXssLibrary.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Castle.Core.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\FluentNHibernate.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\HtmlSanitizationLibrary.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Mail.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Newtonsoft.Json.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Core.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Framework.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Roles.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Search.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Users.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Recaptcha.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Mvc.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Email.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Workflows.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Forms.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.MediaLibrary.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Helpers.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Iesi.Collections.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Razor.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Razor.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\log4net.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Owin.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Microsoft.Owin.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.Linq.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.Configuration.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.WebHost.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Tokens.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\ivNet.Mail.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Roles.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Search.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Users.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\AntiXssLibrary.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Castle.Core.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\HtmlSanitizationLibrary.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Newtonsoft.Json.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\NHibernate.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Mvc.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Core.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Framework.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Email.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Workflows.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Forms.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.MediaLibrary.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Helpers.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Iesi.Collections.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Razor.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Razor.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\log4net.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Microsoft.Owin.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Autofac.Configuration.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.Http.WebHost.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\Orchard.Tokens.pdb
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.csprojResolveAssemblyReference.cache
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.dll
+C:\Users\bp\Documents\Visual Studio 2013\Projects\www.showdigs.co.uk.v1.9\src\Orchard.Web\Modules\ivNet.Listing\obj\Debug\ivNet.Listing.pdb

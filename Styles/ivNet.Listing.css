@@ -1,0 +1,66 @@
+﻿.bootstrap-tagsinput {
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+.bootstrap-tagsinput input {
+  display: none !important;
+}
+.info-colour {
+  color: #bce8f1;
+}
+.owner-detail {
+  border-radius: 10px;
+  border: 2px solid #696969;
+  padding: 2px;
+  margin: 6px 0;
+}
+section#listingEdit,
+div#cke_DescriptionHtml,
+div#WebsiteUrlForm,
+div#ImageUploadForm {
+  display: none;
+}
+table,
+.table {
+  color: #c3c1c1 !important;
+}
+div#CarouselHolder {
+  padding-bottom: 5%;
+}
+div#CarouselHolder div#listingCarousel div.carousel-inner div.item img {
+  width: 100%;
+}
+div.featured-list div.featured-title {
+  font-weight: bold;
+  padding-bottom: 4%;
+}
+div.featured-list div.featured-strapline {
+  font-style: italic;
+  padding: 4% 0 10% 0;
+}
+div.featured-list img {
+  width: 100%;
+}
+.thumbnail {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #444;
+}
+.thumbnail img {
+  opacity: .75;
+}
+.thumbnail img:hover {
+  opacity: 1;
+}
+#map-container {
+  height: 300px;
+}
+li.listing-category {
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+div.listing-tables-holder {
+  padding-top: 4%;
+}

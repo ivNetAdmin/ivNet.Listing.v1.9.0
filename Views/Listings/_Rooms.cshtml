@@ -1,0 +1,55 @@
+﻿<div class="form-horizontal col-md-12 owner-detail">
+    <div class="col-md-12">
+        <h4>Rooms <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_room}} "></i></h4>
+        <hr />
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="RoomType">Type</label>
+            <div class="col-md-8">
+                <select ng-options="room.Name as room.Name for room in roomTypeList"
+                        ng-model="roomType"
+                        id="RoomType">
+                    <option value="">Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="RoomDescription">Description</label>
+            <div class="col-md-8">
+                <input class="form-control text-box single-line" ng-model="roomDescription" id="RoomDescription" type="text">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+            <div class="col-md-12">
+                <input type="button" value="Add Room" class="btn btn-primary" ng-click="addRoom()">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+            <table tr-ng-grid='' items='roomList'
+                   selected-items="roomSelectedItems"
+                   enable-multi-row-selections="true" enable-selections="true"
+                   enable-filtering="false" enable-sorting="false">
+                <thead>
+                <th field-name="Id" display-name="" display-align="right"></th>
+                <th field-name="RoomType" display-name="Room Type"></th>
+                <th field-name="Description" display-name="Description"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <i class="btn btn-danger icon-trash icon-white" ng-click="removeRoom(gridItem)" rel="tooltip" title="Remove Room"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <input type="hidden" id="Rooms" name="Rooms" value="{{rooms}}" />
+</div>

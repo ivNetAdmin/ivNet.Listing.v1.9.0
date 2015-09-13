@@ -1,0 +1,70 @@
+﻿<div class="form-horizontal col-md-12 owner-detail">
+    <div class="col-md-12">
+        <h4>Local Theatres <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_theatres}} "></i></h4>                           
+        <hr />
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="TheatreName">Name</label>
+            <div class="col-md-8">
+                <input class="form-control text-box single-line" ng-model="theatreName" id="TheatreName" type="text" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-4" for="TheatreDistance">Distance</label>
+            <div class="col-md-8">
+                <input class="form-control text-box single-line" ng-model="theatreDistance" id="TheatreDistance" type="text" value="">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="Town">Town</label>
+            <div class="col-md-8">
+                <input class="form-control text-box single-line" ng-model="theatreTown" id="TheatreTown" type="text" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-4" for="Transport">Transport</label>
+            <div class="col-md-8">
+                <select ng-options="transport.Name as transport.Name for transport in transportList"
+                        ng-model="transport"
+                        id="Transport">
+                    <option value="">Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+
+            <div class="col-md-10">
+                <input type="button" value="Add Theatre" class="btn btn-primary" ng-click="addTheatre()">
+            </div>
+       </div>
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+            <table tr-ng-grid='' items='theatreList'
+                   selected-items="theatreSelectedItems"
+                   enable-multi-row-selections="true" enable-selections="true"
+                   enable-filtering="false" enable-sorting="false">
+                <thead>
+                    <th field-name="Id" display-name="" display-align="right"></th>
+                    <th field-name="Name" display-name="Name"></th>
+                    <th field-name="Town" display-name="Town"></th>
+                    <th field-name="Distance" display-name="Distance"></th>
+                    <th field-name="Transport" display-name="Transport"></th>
+                </thead>                
+                <tbody>
+                    <tr>
+                        <td>
+                            <i class="btn btn-danger icon-trash icon-white" ng-click="removeTheatre(gridItem)" rel="tooltip" title="Remove Theatre"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <input type="hidden" id="Theatres" name="Theatres" value="{{theatres}}" />
+</div>

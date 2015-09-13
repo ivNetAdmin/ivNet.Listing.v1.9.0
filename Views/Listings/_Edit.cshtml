@@ -1,0 +1,33 @@
+﻿<section id="listingEdit">
+    @using (Html.BeginForm("AddListing", "SecureSite", new { area = "ivNet.Listing" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="col-md-12">
+            <span class="col-md-2"><input type="button" value="{{email}}" class="btn btn-default" disabled="disabled"/></span>
+            <span class="col-md-offset-8 col-md-2">
+                <input type="submit" value="Save" class="btn btn-success" ng-click="saveListing()">
+                <input type="button" value="Cancel" class="btn btn-warning" ng-click="cancelSaveListing()">
+                <input id="Email" name="Email" type="hidden" value="{{email}}">
+                <input id="ListingKey" name="ListingKey" type="hidden" value="{{listingkey}}">
+            </span>
+        </div>
+
+        <div class="col-md-6">
+            @Html.Partial("Listings/_PaymentPackage")
+            @Html.Partial("Listings/_AddressDetails")
+            @Html.Partial("Listings/_Description")
+            @Html.Partial("Listings/_FileUpload")
+        </div>
+
+        <div class="col-md-6">
+            @Html.Partial("Listings/_Rooms")
+            @Html.Partial("Listings/_LocalTheatres")
+            @Html.Partial("Listings/_Tags")
+            @Html.Partial("Listings/_WebsiteUrl")
+        </div>
+        <div class="col-md-12">
+            @Html.Partial("Listings/_AdminNotes")
+        </div>
+    }
+</section>

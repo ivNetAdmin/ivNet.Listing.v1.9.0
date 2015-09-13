@@ -1,0 +1,48 @@
+﻿<div class="form-horizontal col-md-12 owner-detail">
+    <div class="col-md-12">
+        <h4>Address Details <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_address}} "></i></h4>
+        <hr />
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Category">Category</label>
+        <div class="col-md-10">
+            <select ng-options="category as category.Name for category in categories track by category.Id"
+                    data-val="true"
+                    data-val-required="Category is required."
+                    ng-model="category"
+                    name="category" id="Category">
+                <option value="">Select Category</option>
+            </select>
+            <span class="field-validation-valid text-danger" data-valmsg-for="category" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Address1">Address1</label>
+        <div class="col-md-10">
+            <input class="form-control text-box single-line" data-val="true" data-val-required="Address (line1) is required." xreadonly="readonly" id="Address1" name="Address1" type="text" value="">
+            <span class="field-validation-valid text-danger" data-valmsg-for="Address1" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Address2">Address2</label>
+        <div class="col-md-10">
+            <input class="form-control text-box single-line" id="Address2" name="Address2" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Town">Town</label>
+        <div class="col-md-10">
+            <input class="form-control text-box single-line" data-val="true" data-val-required="Town is required." id="Town" name="Town" type="text" value="">
+            <span class="field-validation-valid text-danger" data-valmsg-for="Town" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Town">Postcode</label>
+        <div class="col-md-10">
+            <input class="form-control text-box single-line" data-val="true" data-val-required="Postcode is required." id="Postcode" name="Postcode" xreadonly="readonly" type="text" value="">
+            <span class="field-validation-valid text-danger" data-valmsg-for="Postcode" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+</div>

@@ -2,6 +2,7 @@
 using ivNet.Listing.Helpers;
 using ivNet.Listing.Models;
 using ivNet.Listing.Service;
+using ivNet.Mail.Services;
 using Orchard;
 using Orchard.Localization;
 using Orchard.Logging;
@@ -20,14 +21,17 @@ namespace ivNet.Listing.Controllers
         private readonly IOrchardServices _orchardServices;
         //private readonly IAuthenticationService _authenticationService;
         private readonly IOwnerServices _ownerServices;
+        private readonly IEmailServices _emailServices;
         
         public SecureSiteController(
             IOrchardServices orchardServices, 
             IAuthenticationService authenticationService,
-            IOwnerServices ownerServices)
+            IOwnerServices ownerServices,
+            IEmailServices emailServices)
         {
             _orchardServices = orchardServices;
             _ownerServices = ownerServices;
+            _emailServices = emailServices;
             //_authenticationService = authenticationService;
             T = NullLocalizer.Instance;
             Logger = NullLogger.Instance;
@@ -71,7 +75,19 @@ namespace ivNet.Listing.Controllers
             var ownerId = _ownerServices.GetOwnerIdByKey(ownerKey);
        
             _ownerServices.AddListing(ownerId, model);
-            
+            var package = "Free";
+            switch (model.Package)
+            {
+                case "2":
+                    package = "Full";
+                    break;
+                case "3":
+                    package = "Featured";
+                    break;
+            }
+
+            _emailServices.SendNotificationEmail(package, CurrentUser.Email);
+
             string returnUrl = "/owner/my-listings";
             if (_orchardServices.Authorizer.Authorize(Permissions.ivAdminTab))
             {

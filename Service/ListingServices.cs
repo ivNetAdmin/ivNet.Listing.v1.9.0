@@ -48,8 +48,10 @@ namespace ivNet.Listing.Service
             {
                 var ownerKey = CustomStringHelper.BuildKey(new[] { eMail });
 
+                //&& x.IsVetted.Equals(1) 
+
                 var listingDetailList = session.CreateCriteria(typeof (ListingDetail))
-                    .List<ListingDetail>().Where(x => x.Owner.OwnerKey.Equals(ownerKey) && x.IsVetted.Equals(1) && x.IsActive.Equals(1));
+                    .List<ListingDetail>().Where(x => x.Owner.OwnerKey.Equals(ownerKey) && x.IsActive.Equals(1));
 
                 return (from listingDetail in listingDetailList
                     let listingDetailViewModel = new ListingDetailViewModel()

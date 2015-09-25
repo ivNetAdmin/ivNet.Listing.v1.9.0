@@ -6,11 +6,15 @@
             <th field-name="Address" display-name="Address"></th>
             <th field-name="PostCode" display-name="PostCode"></th>            
             <th field-name="PaymentPackageExpiraryDate" display-name="Expires" display-format="dateField:gridItem"></th>                      
-             <th display-name="Edit"></th> 
+            <th display-name="Approved"></th> 
+            <th display-name="Edit"></th> 
         </tr>
     </thead>
     <tbody>
-        <tr>          
+        <tr>
+            <td>
+                <i class="btn btn-{{gridItem.IsVetted?'success':'danger'}} icon-thumbs-{{gridItem.IsVetted?'up':'down'}} icon-white" rel="tooltip" title="Approval Status"></i>
+            </td>          
             <td>
                 <i class="btn btn-primary icon-edit icon-white" ng-click="editListing(gridItem)" rel="tooltip" title="Edit Listing"></i>
             </td>

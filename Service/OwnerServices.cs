@@ -64,10 +64,10 @@ namespace ivNet.Listing.Service
                        .List<PaymentPackage>().FirstOrDefault(x => x.Id.Equals(packageId));
 
                     var addressDetailKey = CustomStringHelper.BuildKey(new[] { model.Address1, model.Postcode });
-                    if (!string.IsNullOrEmpty(model.ListingKey))
-                    {
-                        addressDetailKey = model.ListingKey;
-                    }
+                   // if (!string.IsNullOrEmpty(model.ListingKey))
+                   // {
+                   //     addressDetailKey = model.ListingKey;
+                   // }
 
                     // get potentially new entities and save them
                     // address

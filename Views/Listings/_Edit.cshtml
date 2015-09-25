@@ -26,6 +26,14 @@
             @Html.Partial("Listings/_Tags")
             @Html.Partial("Listings/_WebsiteUrl")
         </div>
+
+        <div class="col-md-12">
+            <span class="col-md-offset-10 col-md-2">
+                <input type="submit" value="Save" class="btn btn-success" ng-click="saveListing()">
+                <input type="button" value="Cancel" class="btn btn-warning" ng-click="cancelSaveListing()">
+            </span>
+        </div>
+        
         <div class="col-md-12">
             @Html.Partial("Listings/_AdminNotes")
         </div>

@@ -13,5 +13,6 @@ namespace ivNet.Listing.Models
         public string Price { get; set; }
         public string ImageUrl { get; set; }
         public IList<string> Tags { get; set; }
+        public bool Featured { get; set; }
     }
 }

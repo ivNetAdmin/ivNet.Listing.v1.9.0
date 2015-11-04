@@ -18,7 +18,7 @@ namespace ivNet.Listing.Entities
         {
             Id(x => x.Id);
 
-            Map(x => x.Name).Not.Nullable().Length(50);
+            Map(x => x.Name).Not.Nullable().Length(50).Index("ix_TheatreName_Unique");
             Map(x => x.Distance).Not.Nullable().Length(255); 
             Map(x => x.Town).Nullable().Length(50);            
             Map(x => x.Transport).Nullable().Length(50);

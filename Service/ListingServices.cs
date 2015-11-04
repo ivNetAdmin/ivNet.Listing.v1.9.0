@@ -268,20 +268,36 @@ namespace ivNet.Listing.Service
                 return listingDetailList.Select(listingDetail => new SearchDetailViewModel
                 {
                     ListingId = listingDetail.Id,
-                    StrapLine = HttpUtility.UrlDecode(listingDetail.StrapLine),
+                    Featured = listingDetail.PaymentPackage.Name=="Featured"?true:false,
+                    StrapLine =
+                        string.IsNullOrEmpty(listingDetail.StrapLine)
+                            ? string.Empty
+                            : HttpUtility.UrlDecode(listingDetail.StrapLine),
                     Owner = string.Format("{0} {1}",
-                        listingDetail.Owner.Firstname,
-                        listingDetail.Owner.Surname),
+                        string.IsNullOrEmpty(listingDetail.Owner.Firstname)
+                            ? string.Empty
+                            : listingDetail.Owner.Firstname,
+                        string.IsNullOrEmpty(listingDetail.Owner.Surname) ? string.Empty : listingDetail.Owner.Surname),
                     Address = string.Format("{0}{1}, {2}, {3}",
                         listingDetail.AddressDetail.Address1,
                         string.IsNullOrEmpty(listingDetail.AddressDetail.Address2)
                             ? string.Empty
                             : string.Format(" {0}",
                                 listingDetail.AddressDetail.Address2),
-                        listingDetail.AddressDetail.Town,
-                        listingDetail.AddressDetail.Postcode),
-                    Description = HttpUtility.UrlDecode(HttpUtility.HtmlDecode(listingDetail.Description)),
-                    Price = HttpUtility.UrlDecode(listingDetail.Price.Replace("%A3","£")),
+                        string.IsNullOrEmpty(listingDetail.AddressDetail.Town)
+                            ? string.Empty
+                            : listingDetail.AddressDetail.Town,
+                        string.IsNullOrEmpty(listingDetail.AddressDetail.Postcode)
+                            ? string.Empty
+                            : listingDetail.AddressDetail.Postcode),
+                    Description =
+                        string.IsNullOrEmpty(listingDetail.Description)
+                            ? string.Empty
+                            : HttpUtility.UrlDecode(HttpUtility.HtmlDecode(listingDetail.Description)),
+                    Price =
+                        string.IsNullOrEmpty(listingDetail.Price)
+                            ? string.Empty
+                            : HttpUtility.UrlDecode(listingDetail.Price.Replace("%A3", "£")),
                     ImageUrl = listingDetail.Images.FirstOrNull() == null
                         ? "/Media/Default/showdigs.jpg"
                         : ((Image) listingDetail.Images.First()).LargeUrl,
@@ -290,14 +306,15 @@ namespace ivNet.Listing.Service
             }
         }
 
-        private IList<ListingDetail> FilterResult(IEnumerable<ListingDetail> listingDetailList, string searchTerm)
+        private List<ListingDetail> FilterResult(IEnumerable<ListingDetail> listingDetailList, string searchTerm)
         {
             var rtnList = new List<ListingDetail>();
-            searchTerm = searchTerm.ToLowerInvariant();
-            foreach (var listingDetail in listingDetailList)
+            var searchTermKey = CustomStringHelper.BuildKey(new[] {searchTerm});
+
+            foreach (var listingDetail in listingDetailList.OrderByDescending(x => x.PaymentPackage.Id))
             {
-                if (listingDetail.AddressDetail.Town.ToLowerInvariant().Contains(searchTerm)) rtnList.Add(listingDetail);
-                else if (listingDetail.Theatres.Any(t => t.Name.ToLowerInvariant().Contains(searchTerm))) rtnList.Add(listingDetail);
+                if (CustomStringHelper.BuildKey(new[] {listingDetail.AddressDetail.Town}).Contains(searchTermKey)) rtnList.Add(listingDetail);
+               // else if (listingDetail.Theatres.Any(t => t.Name.ToLowerInvariant().Contains(searchTerm))) rtnList.Add(listingDetail);
                 else if (listingDetail.Owner.Surname.ToLowerInvariant().Contains(searchTerm)) rtnList.Add(listingDetail);
                 else if (listingDetail.Tags.Any(t=>t.Name.ToLowerInvariant().Contains(searchTerm))) rtnList.Add(listingDetail);
             }

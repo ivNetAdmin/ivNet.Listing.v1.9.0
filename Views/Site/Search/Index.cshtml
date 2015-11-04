@@ -10,8 +10,8 @@
 
 <div id="SearchGrid" data-ng-app="ivNet.Search">
     <div data-ng-controller="SearchController" data-search="@searchTerm">
-        <div class="col-md-10"><h1>Search Results</h1></div>  
-        <table tr-ng-grid='' items='listings' fields='search_fields' enable-filtering="false">
+        <div class="col-md-10"><h1>Search Results</h1> <span class="search-message">Searching...</span></div>  
+        <table tr-ng-grid='' items='listings' fields='search_fields' enable-filtering="false" class="col-md-12">
             <thead>
                 <tr>
                     <th field-name="StrapLine" style="display: none"></th>
@@ -20,6 +20,7 @@
                     <th field-name="Address" style="display: none"></th>
                     <th field-name="Price" style="display: none"></th>
                     <th field-name="Description" style="display: none"></th>
+                    <th field-name="Featured" style="display: none"></th>
                 </tr>
             </thead>
             <tbody>
@@ -29,18 +30,26 @@
                     <td field-name="Owner" style="display: none"></td>
                     <td field-name="Address" style="display: none"></td>
                     <td field-name="Price" style="display: none"></td>
+                    <td field-name="Featured" style="display: none"></td>
                     <td field-name="Description">
                         <div class="col-md-12">
                             <div class="col-md-4">
                                 <img alt="listing image" src="{{gridDisplayItem.ImageUrl}}" style="width:100%" />
                             </div>
                             <div class="col-md-8">
-                                @*<h4>{{gridDisplayItem.Address}}</h4>*@
-                                <h4>{{gridDisplayItem.StrapLine}}</h4>
-                                <p>{{gridDisplayItem.Owner}}</p>
-                                @*<p>{{gridDisplayItem.StrapLine}}</p>*@
-                                @*<div ng-bind-html="gridDisplayItem.Description"></div>*@
-                                <p>{{gridDisplayItem.Price}}</p>
+                                <div class="col-md-12">
+                                    <div class="col-md-10">
+                                        @*<h4>{{gridDisplayItem.Address}}</h4>*@
+                                        <h4>{{gridDisplayItem.StrapLine}}</h4>
+                                        <p>{{gridDisplayItem.Owner}}</p>
+                                        @*<p>{{gridDisplayItem.StrapLine}}</p>*@
+                                        @*<div ng-bind-html="gridDisplayItem.Description"></div>*@
+                                        <p>{{gridDisplayItem.Price}}</p>
+                                    </div>
+                                    <div class="col-md-2 featured-{{gridDisplayItem.Featured}}">
+                                        <img alt="featured" title="Featured" src="/Media/Default/Theme/featured.png" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </td>
@@ -50,9 +59,6 @@
                 </tr>
             </tbody>
         </table>
-        
-
-     
     </div>
 </div>
 

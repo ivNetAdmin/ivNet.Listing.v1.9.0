@@ -16,7 +16,7 @@ namespace ivNet.Listing.Entities
         {
             Id(x => x.Id);
 
-            Map(x => x.Name).Not.Nullable().Length(50);
+            Map(x => x.Name).Not.Nullable().Length(50).Index("ix_TagName_Unique");
 
             References(x => x.ListingDetail);
 

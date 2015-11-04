@@ -27,11 +27,11 @@ namespace ivNet.Listing.Entities
         public OwnerMap()
         {
             Id(x => x.Id);
-            Map(x => x.OwnerKey).Not.Nullable().Length(120).UniqueKey("ix_OwnerKey_Unique");            
+            Map(x => x.OwnerKey).Not.Nullable().Length(120).UniqueKey("ix_OwnerKey_Unique");
 
-            Map(x => x.UserId);            
+            Map(x => x.UserId);
 
-            Map(x => x.Surname).Not.Nullable().Length(50);
+            Map(x => x.Surname).Not.Nullable().Length(50).Index("ix_Surname_Unique");
             Map(x => x.Firstname).Not.Nullable().Length(50);
 
             

@@ -7,6 +7,7 @@ using ivNet.Listing.Entities;
 using ivNet.Listing.Helpers;
 using ivNet.Listing.Models;
 using Newtonsoft.Json;
+using NHibernate;
 using NHibernate.Criterion;
 using NHibernate.Linq;
 using NHibernate.Mapping;
@@ -259,16 +260,35 @@ namespace ivNet.Listing.Service
         {
             searchTerm = searchTerm.ToLowerInvariant();
             using (var session = NHibernateHelper.OpenSession())
-            {
+            {               
+
                 var listingDetailList = session.CreateCriteria<ListingDetail>()
-                    .Add(Restrictions.Eq("IsVetted", (byte)1)).Add(Restrictions.Eq("IsActive", (byte)1)).List<ListingDetail>();
+                    .Add(Restrictions.Eq("IsVetted", (byte)1))
+                    .Add(Restrictions.Eq("IsActive", (byte)1))
+                    .CreateAlias("AddressDetail", "addressDetail")
+                    .CreateAlias("Owner", "owner")
+                    .Add(Restrictions.Or(
+                                Restrictions.InsensitiveLike("owner.Surname", searchTerm, MatchMode.Anywhere),
+                                Restrictions.InsensitiveLike("addressDetail.Town", searchTerm, MatchMode.Anywhere)))
+                    .List<ListingDetail>();
 
-                listingDetailList = FilterResult(listingDetailList, searchTerm);
+                var tags = session.CreateCriteria<Tag>()
+                    .Add(Restrictions.InsensitiveLike("Name", searchTerm, MatchMode.Anywhere)).List<Tag>();
 
+                foreach (var tag in tags)
+                {
+                    var listingDetail = tag.ListingDetail;
+                    if (!listingDetailList.Contains(listingDetail))
+                    {
+                        listingDetailList.Add(listingDetail);
+                    }
+                    
+                }
+              
                 return listingDetailList.Select(listingDetail => new SearchDetailViewModel
                 {
                     ListingId = listingDetail.Id,
-                    Featured = listingDetail.PaymentPackage.Name=="Featured"?true:false,
+                    Featured = listingDetail.PaymentPackage.Name == "Featured" ? true : false,
                     StrapLine =
                         string.IsNullOrEmpty(listingDetail.StrapLine)
                             ? string.Empty
@@ -300,7 +320,7 @@ namespace ivNet.Listing.Service
                             : HttpUtility.UrlDecode(listingDetail.Price.Replace("%A3", "£")),
                     ImageUrl = listingDetail.Images.FirstOrNull() == null
                         ? "/Media/Default/showdigs.jpg"
-                        : ((Image) listingDetail.Images.First()).LargeUrl,
+                        : ((Image)listingDetail.Images.First()).LargeUrl,
                     Tags = listingDetail.Tags.Select(tag => tag.Name).ToList()
                 }).ToList();
             }
